@@ -1,8 +1,8 @@
 # Red Delicious Managment week Signup
 
-1. 09/13 - 09/19: 
+1. 09/13 - 09/19: Jordan Burdenell
 
-2. 09/20 - 09/26: 
+2. 09/20 - 09/26: Alex Lampe
 
 3. 09/27 - 10/03: NONE
 
