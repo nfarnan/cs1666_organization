@@ -164,11 +164,50 @@ Liying Qin
 
 
 ## Presentation IV
-
-- Topic 1 (XX minutes)
-  - ...
-- Topic 2 (XX minutes)
-  - ...
-- Topic 3 (XX minutes)
-  - ...
+- Networking Framework and Custom Protocol Analysis (15 minutes)
+    - Game Architecture Overview for Multiplayer in our game
+        - Explanation of the High-level architecture of our game, focusing on the networking components and code
+        - Client-server model and how it suits our game's requirements/needs
+        - Challenges faced during the implementation of our specific game architecture regarding multiplayer
+        - How certain decisions in networking architecture influenced gameplay
+    - Implementation of Networking Protocols in our game
+        - Details on the protocols used for communication
+        - Explanation of how our data is structured and transmitted over the network
+    - Other considerations for Networking Frameworks and Custom Protocols
+        - Explanation of routes we explored/could've taken
+        - Explanation of other ways games can handle their architecture
+- Game State Management and Latency Handling (15 minutes)
+    -Project management to integrate network directly into game state
+        -GameState
+        -MultiplayerState
+    -Discuss using Bevy states and events to trigger client-server communication
+        -NetworkingState
+        -Updating on events
+        -Struggles with incorporating networking into our game
+    -Problems with our architecture we had to address
+        -Blocking
+        -Switching from TCP to UDP
+- Networking Security Protocols (15 minutes)
+    - Background of why we chose to implement a preliminary security system following the flow of Threat Analysis -> Design -> Mechanism -> Implementation
+    - Importance of security in networking communications: 
+        - Data confidentiality to prevent unauthorized access to sensitive information
+        - Data integrity  + Availability and Threats vs exploits
+        - Man in the Middle Attacks example
+        - SLL vs SSH
+    - Foundations of Public key cryptography
+        - Trade-offs between public key cryptography and symmetric key cryptography. 
+        - Diffie-Hillman secure key exchange and RSA overview
+        - Digital signatures overview.
+    - Our networking security design and implementation:
+        - What threats are we protecting against and why we chose to make our server fully trusted
+        - Out-of-band key generation and distribution 
+        - Client-Server mutual authentication steps along with what a challenge is.
+        - How our implementation prevents replay attacks  
+        - Shared private session secret development utilizing AES between each client and server.
+        - Informal proof justifying security and correctness. 
+    - Rust implementation challenges: 
+        - Packages we chose to utilize 
+        - Choices we made in terms of key size, block modes, and padding modes and what went into making these decisions. 
+    - Final thoughts on security in networking and assurances. 
+        - Leverage real-world examples to explain the concept of assurance and how most security mechanisms are built upon it + formal mathematics.  
 ...
