@@ -111,11 +111,20 @@ Sub-topic 4: Smaller bosses (simplified AI) (14 minutes)
   - Walkthrough of an example action being executed
 
 ## Presentation III
-
-- Topic 1 (XX minutes)
-  - ...
-- Topic 2 (XX minutes)
-  - ...
-- Topic 3 (XX minutes)
-  - ...
+- Poker AI and the CFR algorithm for texas hold em'
+  - The development of poker AI history and then delve into the two AIs we've implemented
+- Brief History of Poker AI (5 minutes)
+  - The evolution of AI specifically for Texas Hold Em'
+  - Different Models and varying levels of success
+- Our Easy AI with an example (10 minutes)
+  - The inception and basics of our Easy AI algorithm
+    - Simple random decisions based on a hand strength score
+  - Basic example of how our Algorithm might score and act in a hand
+- Introduce Regret Matching with another exmaple of RPS (10 minutes)
+  - Regret matching and how it is a simple strategy in game theory that allows you to reach a nash equilibrium
+  - An example of a couple rounds of Rock Paper Scissors to show how it would slowly shift regrets
+- CFR as an application of Regret Matching and How we use it in our Texas Hold Em' Game (20 minutes)
+  - CFR and the game theory behind it as an algorithm
+  - The slight alterations between CFR and our own implementation
+  - 1 or 2 hand example to show how the regrets are updated at each decision node and how this might lead to the application of training the AI before hand rather than starting at even odds everytime
 ...
