@@ -59,10 +59,20 @@ and be sure not to repeat any topics covered in previous presentations.
 
 ## Presentation III
 
-- Topic 1 (XX minutes)
-  - ...
-- Topic 2 (XX minutes)
-  - ...
-- Topic 3 (XX minutes)
-  - ...
-...
+- Introduction (5 minutes)
+  - Subteam introduction
+  - Broad overview of the scale of the map of our game
+  - Introduction of navigable vs. non-navigable room generations to introduce the problem we’re trying to solve
+- Depth First Search Overview (15 minutes)
+  - What is Depth First Search (DFS)?
+  - Using DFS to verify the existence of a path between 2 nodes in a graph (step through)
+  - What does DFS look like on a 2D array of 0’s and 1’s (step through)?
+- DFS In Our Game (10 minutes)
+  - Overview of the entity types used to represent the tiles in our game
+  - What if the grid has more than 2 possible values?
+    - is_passable() recursive function walkthrough (the DFS function in our game)
+  - What if a floor is not navigable?
+- Challenges and Conclusion (5 minutes)
+  - Discuss rooms in our game that are more complex than moving from Point A to Point B (puzzle rooms and combat rooms).
+  - Summarize main points and wrap up DFS discussion.
+
