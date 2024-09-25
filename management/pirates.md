@@ -6,15 +6,15 @@
 
 03. 09/25 - 10/01: Andrew Amilcar
 
-04. 10/02 - 10/08:
+04. 10/02 - 10/08: Mark Zarroli
 
 05. 10/09 - 10/14: NONE (Midterm exam and fall break)
 
 06. 10/16 - 10/22: Theo Zervos (Midterm eval)
 
-07. 10/23 - 10/29: Tim Sullivan
+07. 10/23 - 10/29: Zac Chen
 
-08. 10/30 - 11/05: 
+08. 10/30 - 11/05: Tim Sullivan
 
 09. 11/06 - 11/12:
 
