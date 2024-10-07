@@ -12,7 +12,7 @@
 
 06. 10/16 - 10/22: Andre Ukattah
 
-07. 10/23 - 10/29: 
+07. 10/23 - 10/29: Ricky Conrad
 
 08. 10/30 - 11/05: Helen Fleming
 

@@ -6,7 +6,7 @@
 
 03. 09/25 - 10/01: Kory Sanchez
 
-04. 10/02 - 10/08:
+04. 10/02 - 10/08: Bairun Chen
 
 05. 10/09 - 10/14: NONE (Midterm exam and fall break)
 
