@@ -2,7 +2,7 @@
 
 All dates inclusive, each "week" starts on the first date and ends on the second.
 
-01. 09/10 - 09/23: Vladyslav Bordia
+01. 09/10 - 09/23: Vladimir Deianov
 
 02. 09/24 - 09/30: 
 
