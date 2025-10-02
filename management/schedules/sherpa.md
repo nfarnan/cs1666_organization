@@ -8,7 +8,7 @@ All dates inclusive, each "week" starts on the first date and ends on the second
 
 03. 10/01 - 10/07: Alli Batell
 
-04. 10/08 - 10/14: 
+04. 10/08 - 10/14: Zhuoyan Cen
 
 05. 10/15 - 10/21: REQUIRED (midterm demos)
 
