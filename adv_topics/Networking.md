@@ -77,16 +77,16 @@ and be sure not to repeat any topics covered in previous presentations.
 
 
 ## Presentation 2
-### TEAM1_NAME
+### Blueberry
 
-- Topic1 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
-- Topic2 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
+- Design Philosophies for Networked Multiplayer (XX minutes):
+  - "Don't Trust The Client"   
+  - Limit Locally Stored Information
+- Our Approaches to Following that Philosophy (XX minutes):
+  - Packet Design
+    - Client-to-Server
+    - Server-to-Client
+  - Authoritative Server
 - Topic3 (XX minutes):
 - ...
 
