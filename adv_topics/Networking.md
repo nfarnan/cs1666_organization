@@ -87,7 +87,9 @@ and be sure not to repeat any topics covered in previous presentations.
     - Client-to-Server
     - Server-to-Client
   - Authoritative Server
-- Topic3 (XX minutes):
+- Planning for Network Conditions (XX minutes):
+	- Input History
+	- Rollbacks
 - ...
 
 
