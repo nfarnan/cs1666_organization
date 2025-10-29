@@ -79,16 +79,16 @@ and be sure not to repeat any topics covered in previous presentations.
 ## Presentation 2
 ### Blueberry
 
-- Design Philosophies for Networked Multiplayer (10 minutes):
+- Design Philosophies for Networked Multiplayer (5 minutes):
   - "Don't Trust The Client"   
   - Limit Locally Stored Information
-- Our Approaches to Following that Philosophy (10 minutes):
+- Our Approaches to Following that Philosophy (5 minutes):
   - Packet Design
     - Client-to-Server
     - Server-to-Client
   - Authoritative Server
   	- Player Damage/Health 
-- Planning for Network Conditions (15 minutes):
+- Planning for Network Conditions (25 minutes):
 	- Synchronization
  		- Variable FixedUpdate	
 	- Input History
