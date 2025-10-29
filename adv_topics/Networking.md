@@ -77,19 +77,32 @@ and be sure not to repeat any topics covered in previous presentations.
 
 
 ## Presentation 2
-### TEAM1_NAME
+### Blueberry
 
-- Topic1 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
-- Topic2 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
-- Topic3 (XX minutes):
-- ...
-
+- Design Philosophies for Networked Multiplayer (5 minutes):
+  - "Don't Trust The Client"   
+  - Limit Locally Stored Information
+- Our Approaches to Following that Philosophy (5 minutes):
+  - Packet Design
+    - Client-to-Server
+    - Server-to-Client
+  - Authoritative Server
+  	- Player Damage/Health 
+- Planning for Network Conditions (25 minutes):
+	- Synchronization
+ 		- Variable FixedUpdate	
+	- Input History
+  		- Compression
+	- Rollback Methods
+ 		- Low Tech Overwrite
+  		- Gradual Input Compression 
+ 	- Hit Registration
+  		- Variable Bullet Size  	
+- Worst Case Scenarios (10 minutes)
+  - Ping
+  - Packet Loss
+  - Disconnects
+  - Tradeoffs
 
 ## Presentation 3
 ### TEAM1_NAME
