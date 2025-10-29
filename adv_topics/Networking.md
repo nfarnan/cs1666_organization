@@ -79,7 +79,7 @@ and be sure not to repeat any topics covered in previous presentations.
 ## Presentation 2
 ### Blueberry
 
-- Design Philosophies for Networked Multiplayer (5 minutes):
+- Design Philosophies for Networked Multiplayer (10 minutes):
   - "Don't Trust The Client"   
   - Limit Locally Stored Information
 - Our Approaches to Following that Philosophy (10 minutes):
@@ -98,16 +98,11 @@ and be sure not to repeat any topics covered in previous presentations.
   		- Gradual Input Compression 
  	- Hit Registration
   		- Variable Bullet Size  	
-- Planning for Network Conditions (10 minutes):
-	- Input History
-		- Compression
-	- Rollbacks
- 	- Hit Registration
-  		- Variable Bullet Size
-- Why UDP is Great (5 Minutes):
-	- Compact
- 	- Adaptable
-  	- Adding Application Level Implementations of TCP features
+- Worst Case Scenarios (10 minutes)
+  - Ping
+  - Packet Loss
+  - Disconnects
+  - Tradeoffs
 
 ## Presentation 3
 ### TEAM1_NAME
