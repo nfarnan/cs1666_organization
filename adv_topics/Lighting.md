@@ -1,18 +1,27 @@
-# Lighting Advanced Topic Presentations
-
-Before your presentation, use this file to get your talk outline approved. Be
-sure to provide an estimated time to spend on teach topic (totalling 45 minutes)
-and be sure not to repeat any topics covered in previous presentations.
-
-## Presentation 1
-### TEAM1_NAME
-
-- Topic1 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
-- Topic2 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
-- Topic3 (XX minutes):
+---------------------------------------
+- Topic 1 GPU and Shaders (15 minutes):
+  - What is a Shader?
+  - Extreme Parallelization and the GPU
+  - GPU Programming vs. CPU Programming
+  - The Vendor-Specific Mess
+  - Shader Languages
+  - Broad Shader Types
+  - Specific Shader Types
+---------------------------------------------------
+- Topic 2 Realtime Rendering and Phong(15 minutes):
+  - Basics of the rendering pipeline
+  - Meshes, textures, and U,V maps (touch lightly on shaders, Daniel will go in-depth on shaders)
+  - Normal maps, and how this surface orientation information is encoded for use in the Phong formula
+  - (Same thing with specular maps)
+  - The Phong lighting formula
+  - Short shader demo
+-------------------------------------------------------------------
+- Topic3 (15 minutes): Deferred Rendering and “Deferred-Lite” in 2D
+  - What is Deferred Rendering?
+  - Forward vs. Deferred Rendering: key differences
+  - Why Deferred Rendering is useful for handling many lights
+  - Simplified “Deferred-Lite” approach for 2D
+  - Rendering normals to a texture (G-buffer Lite)
+  - Fullscreen lighting pass using Lambert (diffuse-only) shading
+  - Comparison to Forward + Phong lighting
+  - Brief intro to SDF shadows and how they could integrate
