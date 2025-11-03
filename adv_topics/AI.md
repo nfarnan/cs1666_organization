@@ -61,28 +61,28 @@ and be sure not to repeat any topics covered in previous presentations.
 ### Sherpa
 
 - What is Q learning (15 minutes):
-  - what is reinforcement learning 
+  - what is reinforcement learning (3 min)
     - the specifics of that goals
       - explotation versus explortation
       - what are rewards
-  - what are actions and states within this framework 
+  - what are actions and states within this framework (2 min)
     - Since state machines are foundational
       - what are the possible actions (jumping, left right, Jump L, jump R)
       - what are the possible states
         - these can be catagorized by cause and effect
-  - what is a model free learning algorithm
+  - what is a model free learning algorithm (3min)
     - model free
       - uses experiance without any foreknowlage 
         - without knowlage and expectations we instead store rewards
         - without an internal model of every cause and effects which means it doesn't simulate future actions
-  - what is the Q learning algorithm
+  - what is the Q learning algorithm (3min)
     - the current state and finding the most optimal transition
       - but the main caveat it does not guarante the choice of main optimal action
       - this chance of explore is reduced
     - modifying with the rewards 
       - we modify a table or some way to store which action was better given a reward
 
-- what is our approach to developing the AI (13 minutes):
+- what is our approach to developing the AI (15 minutes):
   - diagram of our approach to the algorithm in theory
     - the flow of information between game world and into the algorithm
   - traits 
@@ -96,6 +96,15 @@ and be sure not to repeat any topics covered in previous presentations.
       - what does the starting q table look like and after a few rounds of training how does it change
       - when is it that we can stop explotation and start exploration 
   - controller
-    - how is it that 
-- demonstration of (10 minutes):
-- ...
+    - why is it returning traits 
+- demonstration of what has been coded so far (10 minutes):
+  - controller
+    - show off code and what it does
+  - states
+    - show off code and what it does
+  - policy
+    - show off code and what it does
+- what are the problems with Q learning and our own woes(5 min)
+  - Q learning in a 2d platformer has many states
+    - if everything interactable 
+  - what problems were there in development 
