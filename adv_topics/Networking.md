@@ -105,15 +105,69 @@ and be sure not to repeat any topics covered in previous presentations.
   - Tradeoffs
 
 ## Presentation 3
-### TEAM1_NAME
+### 67Studios
 
-- Topic1 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
-- Topic2 (XX minutes):
-  - Subtopic1
-  - Subtopic2
-  - ...
-- Topic3 (XX minutes):
-- ...
+- Background: Codebase History (5 mins)
+	- Peer to peer architecture (accident)
+		- Difficult synchronizing lobby state with joins and (especially) leaves
+	- Relay server that takes in client position
+		- Bad design decision, trusting the client
+	- Authoritative server (next section)
+  
+- Final Project Architecture (3 mins)
+	- Diagram
+		- Client-server architecture
+		- Authoritative server
+		- UDP
+    
+- Security and Firewalls (5 mins) 
+	- Security concerns with accepting all network traffic onto a server
+	- Firewalls
+		- Problems firewalls caused for our project
+		- Getting around firewalls issues
+    
+- Lobby (5 mins)
+	- Quick run through of our actual lobby UI
+	- Explain details of our lobby system with a state diagram of the lobby
+		- What happens when you create a lobby
+		- What happens when you join a lobby
+		- What happens when you leave a lobby
+		- Starting a lobby, which transitions into synchronized start
+    
+- Synchronized Start (5 mins)
+	- Approaches
+		- Start accepting traffic on server at specified time
+			- Higher latency clients start behind
+		- Client system clock based approach
+			- Didn’t use because involves trusting client
+	- What we landed on
+		- Round trip ping latency approach
+	- Some code snippets
+	- Future improvements
+   
+- Introduce Lag Compensation (2 min)
+	- Interpolation + Client-side prediction
+   
+- Interpolation (10 mins)
+	- Review the problem of latency in networking
+		- GIF/Video of our game being laggy pre-lag-compensation
+		- Do not want remote players to be choppy
+		- Explore potential solutions (interpolation, extrapolation, etc)
+		- Land on interpolation, justify why for our game
+	- Explain algorithm used (theory and equations)
+		- Alternate algorithms for interpolation and why we chose our approach
+	- Illustrative code snippets
+	- Challenges we faced
+	- Pre-recorded demo
+		- Comparing network cars with vs without interpolation
+
+- Client-Side Prediction (10 mins)
+	- Review the problem
+		- Do not want to rely on networking for our local player
+		- Explore potential solutions
+	- Explain our server reconciliation method
+	- Smoother reconciliation methods
+		- Incremental bending
+	- Pre-recorded demo
+		- Comparing local cars with vs without client-side prediction
+
