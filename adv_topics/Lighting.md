@@ -26,9 +26,8 @@
   - Comparison to Forward + Phong lighting
   - Brief intro to SDF shadows and how they could integrate
 -------------------------------------------------------------------
-- Topic 4 Game Demo & Code Realization in Bevy (9 minutes):
+- Topic 4 Game Demo & Code Realization in Bevy (6 minutes):
   - Bevy + Rust shaders overview
   - Project structure and shader integration (assets, material, lights)
-  - Code walkthrough
-  - Real‑time rendering linkage to Phong
+  - Code walkthrough & Real‑time rendering linkage to Phong
   - Short live demo (run, play with shininess/ambient, spotlight via cone)
