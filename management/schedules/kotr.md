@@ -10,7 +10,7 @@ All dates inclusive, each "week" starts on the first date and ends on the second
 
 04. 10/21 - 11/27: Aiden McCoy
 
-05. 10/28 - 11/03: 
+05. 10/28 - 11/03: Caleb Sarmiento
 
 06. 11/04 - 11/17: 
 
