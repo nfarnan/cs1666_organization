@@ -10,6 +10,6 @@ All dates inclusive, each "week" starts on the first date and ends on the second
 
 04. 10/21 - 11/03: Daniel Gallagher
 
-05. 11/04 - 11/17: 
+05. 11/04 - 11/17: Polly Naneva
 
 06. 11/18 - 12/01: FINAL
