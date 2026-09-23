@@ -4,7 +4,7 @@ All dates inclusive, each "week" starts on the first date and ends on the second
 
 01. 09/16 - 09/22: Jake Biondolillo
 
-02. 09/23 - 10/06: 
+02. 09/23 - 10/06: Trystin DeRemer
 
 03. 10/07 - 10/20: MIDTERM
 
