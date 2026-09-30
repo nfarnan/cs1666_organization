@@ -12,4 +12,4 @@ All dates inclusive, each "week" starts on the first date and ends on the second
 
 05. 11/04 - 11/17: Polly Naneva
 
-06. 11/18 - 12/01: FINAL
+06. 11/18 - 12/01: FINAL - Giovanni Bair
