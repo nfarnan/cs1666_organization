@@ -10,6 +10,6 @@ All dates inclusive, each "week" starts on the first date and ends on the second
 
 04. 10/21 - 11/03: Astor Stave
 
-05. 11/04 - 11/17: 
+05. 11/04 - 11/17: Nuoya Liu
 
 06. 11/18 - 12/01: Ryan Armendariz-Lopez
