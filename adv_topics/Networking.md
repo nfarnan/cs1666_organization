@@ -4,13 +4,20 @@ Before your presentation, use this file to get your talk outline approved. Be su
 
 
 ## Presentation 1
-### Tower Balance
-- TOPIC1 (XX minutes)
-  - ...
-- TOPIC2 (XX minutes)
-  - ...
-- TOPIC3 (XX minutes)
-  - ...
+### Tower Balance (Danny, Sam, Polly)
+- What we've done so far (10 minutes)
+  - Setting up a UDP server.
+  - How the host listens for a player
+  - How the client connects to host
+  - Error checking port
+- Server Authoritative Model (20 minutes)
+  - Peer to Peer vs Server Authoritative
+  - Seperating client and server code
+  - Client side prediction
+- Latency and Tick Rate (15 minutes)
+  - Game running at set tick amount (using fixed update)
+  - Sending data from client to server and vice versa
+  - Rollback
 
 
 ## Presentation 2
