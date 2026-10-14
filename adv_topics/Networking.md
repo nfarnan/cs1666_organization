@@ -10,10 +10,10 @@ Before your presentation, use this file to get your talk outline approved. Be su
   - How the host listens for a player
   - How the client connects to host
   - Error checking port
-- Server Authoritative Model (20 minutes)
+- Server Authoritative Model (10 minutes)
   - Peer to Peer vs Server Authoritative
   - Seperating client and server code
-  - Client side prediction
+- Client Side Prediction (15 minutes) 
 - Latency and Tick Rate (15 minutes)
   - Game running at set tick amount (using fixed update)
   - Sending data from client to server and vice versa
