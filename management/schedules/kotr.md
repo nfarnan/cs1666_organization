@@ -14,4 +14,4 @@ All dates inclusive, each "week" starts on the first date and ends on the second
 
 06. 11/04 - 11/17: Nicholas Myers
 
-07. 11/18 - 12/01: Nick Cheddar
+07. 11/18 - 12/01: NicK Cheddar
