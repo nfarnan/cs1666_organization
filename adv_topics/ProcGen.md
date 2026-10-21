@@ -5,13 +5,14 @@ Before your presentation, use this file to get your talk outline approved. Be su
 
 ## Presentation 1
 ### Team1 (Astor, Ryan, Noah)
-- What's already implemented (10 minutes)
+- What's already implemented (5 minutes)
   - Tests for maze generating algorithms and Perlin Noise
   - Generating the floor using Perlin Noise
-- Various generation algorithms (25 minutes)
+- Terrain Generation (15 minutes)
   - Perlin Noise
+- Dungeon/Maze Generation (15 minutes)
   - Recursive Division
-  - DFS Algorithm
+  - How Recursive Division and DFS are used to generate levels
 - How we are planning on using procedural generation (10 minutes)
   - Generating the ordering of the screens
   - Generating the screens themselves
