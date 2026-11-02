@@ -21,9 +21,20 @@ Before your presentation, use this file to get your talk outline approved. Be su
 
 ## Presentation 2
 ### KOTR
-- TOPIC1 (XX minutes)
-  - ...
-- TOPIC2 (XX minutes)
-  - ...
-- TOPIC3 (XX minutes)
-  - ...
+- Overview of Approach / Implementation (5 minutes)
+  - Room Generation
+  - Delaunay Triangulation
+  - MST
+- Room Generation (10 minutes)
+  - Create a map -> carve rooms out of the map
+  - Seeded generation
+  - Includes many implementation details
+- Delaunay Triangulation (10 minutes)
+  - How we adapted it for our game
+  - Implementation details
+- MST (10 minutes)
+  - How we adapted it for our game
+  - Implementation details
+- Putting it all together (10 minutes)
+  - Created a file that adds a useful layer of abstraction by handling the entire dungeon generation. 
+  - Carving out hallways, platform gen, enemy gen
