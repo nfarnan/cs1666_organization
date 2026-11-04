@@ -21,10 +21,15 @@ Before your presentation, use this file to get your talk outline approved. Be su
 
 
 ## Presentation 2
-### Team1
-- TOPIC1 (XX minutes)
-  - ...
-- TOPIC2 (XX minutes)
-  - ...
-- TOPIC3 (XX minutes)
-  - ...
+### Team1 (Superkill) (Eric, Brian, Chen)
+- Client-Server Architecture (15 minutes)
+  - The roles of the client and server: sending inputs, deciding game state, and displaying results.
+  - How inputs reach the server and updated states return to both clients.
+  - Why the server updates gameplay at a fixed tick rate.
+  - What we've implemented: synchronized movement and basic attacks; what's next: respawns and screen transitions.
+
+- What's Next — Advanced Networking (30 minutes)
+  - Screen Synchronization: The server controls screen transitions and player spawns.
+  - Client-Side Prediction: Show local movement before the server responds.
+  - Interpolation: Smooth remote movement between server updates.
+  - Server-Side Rewind: Account for latency when validating attacks and parries.
